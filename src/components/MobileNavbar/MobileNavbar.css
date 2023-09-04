@@ -1,0 +1,21 @@
+.mobile__navbar {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(180deg, #06061A 0%, #070923 100%);
+    /* z-index: 1; */
+}
+
+.crossbar {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.mobile__navbar-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mobile__navbar-menu > li{
+    margin: 1rem 0rem 1rem 0rem;
+}
