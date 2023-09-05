@@ -1,9 +1,10 @@
-/* This file contains styling of Navbar */
+/* This file contains styling of Header */
 /* Importing required fonts */
+/* You should create a file like global.css and import all fonts there. Also you can create some global classes */
 @import url('https://fonts.cdnfonts.com/css/sunday-gallery');
 @import url('https://fonts.cdnfonts.com/css/manrope');
 
-/* Styling of Navbar */
+/* Styling of Header */
 .navbar {
     background-color: transparent;
     font-family: 'Manrope', sans-serif;
@@ -62,9 +63,9 @@
 }
 
 @media (min-width: 768px) {
-    
+
 }
 
 @media (min-width: 992px) {
-    
+
 }
