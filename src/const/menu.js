@@ -1,5 +1,6 @@
 // Creating a list of menu items for the navbar
-export const NavItems = [
+// Naming should be in camelCase and represent the content of the variable
+export const menuItems = [
     {
         title: 'Home',
         url: '#',
