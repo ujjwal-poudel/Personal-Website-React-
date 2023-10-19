@@ -1,13 +1,20 @@
 import React from 'react';
-import {Header} from "components";
-
-// About absolut imports https://dev.to/mr_frontend/absolute-imports-in-create-react-app-3ge8
+import { Route, Routes} from "react-router-dom";
+import Home from 'components/Home';
+import About from 'components/About';
+import Skills from 'components/Skills';
+import Projects from 'components/Projects';
+import Contact from 'components/Contact';
 
 function App() {
     return (
-        <div className="App">
-            <Header/>
-        </div>
+        <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/skills" element={<Skills />} />
+            <Route path="/projects" element={<Projects />} />
+            <Route path="/contact" element={<Contact />} />
+        </Routes>
     );
 }
 
